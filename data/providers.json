@@ -1,0 +1,104 @@
+{
+  "providerTypes": [
+    { "id": "physician", "name": "Physicians", "description": "Our board-certified physicians and surgeons." },
+    { "id": "therapist", "name": "Therapists", "description": "Our licensed therapists and rehabilitation specialists." }
+  ],
+  "providers": [
+    {
+      "id": "provider-1",
+      "name": "Vascular Specialist",
+      "credentials": "MD, FACS",
+      "type": "physician",
+      "specialty": "Vascular Surgery",
+      "photo": "",
+      "bio": "Board-certified vascular surgeon specializing in minimally invasive procedures.",
+      "specialties": ["Vascular Surgery", "Endovascular Procedures"],
+      "locations": ["Forest Hills", "Great Neck"],
+      "languages": ["English"]
+    },
+    {
+      "id": "provider-2",
+      "name": "Interventional Radiologist",
+      "credentials": "MD",
+      "type": "physician",
+      "specialty": "Interventional Radiology",
+      "photo": "",
+      "bio": "Expert in image-guided minimally invasive procedures including GAE and embolization.",
+      "specialties": ["Interventional Radiology", "GAE", "Embolization"],
+      "locations": ["Forest Hills", "Great Neck"],
+      "languages": ["English"]
+    },
+    {
+      "id": "provider-3",
+      "name": "Orthopedic Surgeon",
+      "credentials": "MD",
+      "type": "physician",
+      "specialty": "Orthopedic Surgery",
+      "photo": "",
+      "bio": "Specializing in joint care and orthopedic procedures for seniors.",
+      "specialties": ["Orthopedic Surgery", "Joint Replacement"],
+      "locations": ["Forest Hills", "Great Neck"],
+      "languages": ["English"]
+    },
+    {
+      "id": "provider-4",
+      "name": "Pain Management Specialist",
+      "credentials": "MD",
+      "type": "physician",
+      "specialty": "Pain Management",
+      "photo": "",
+      "bio": "Dedicated to personalized pain relief through advanced treatment options.",
+      "specialties": ["Pain Management", "Interventional Pain"],
+      "locations": ["Forest Hills", "Great Neck"],
+      "languages": ["English"]
+    },
+    {
+      "id": "provider-5",
+      "name": "Podiatrist",
+      "credentials": "DPM",
+      "type": "physician",
+      "specialty": "Podiatry",
+      "photo": "",
+      "bio": "Comprehensive foot and ankle care with a focus on senior mobility.",
+      "specialties": ["Podiatry", "Foot & Ankle Care"],
+      "locations": ["Forest Hills"],
+      "languages": ["English"]
+    },
+    {
+      "id": "provider-6",
+      "name": "Physical Medicine Specialist",
+      "credentials": "MD",
+      "type": "physician",
+      "specialty": "Physical Medicine & Rehabilitation",
+      "photo": "",
+      "bio": "Focused on restoring function and mobility through comprehensive rehabilitation.",
+      "specialties": ["PM&R", "Rehabilitation Medicine"],
+      "locations": ["Forest Hills", "Great Neck"],
+      "languages": ["English"]
+    },
+    {
+      "id": "provider-7",
+      "name": "Physical Therapist",
+      "credentials": "DPT",
+      "type": "therapist",
+      "specialty": "Physical Therapy",
+      "photo": "",
+      "bio": "Specializing in senior strength, balance, and fall prevention programs.",
+      "specialties": ["Physical Therapy", "Geriatric Rehabilitation"],
+      "locations": ["Forest Hills", "Great Neck"],
+      "languages": ["English"]
+    },
+    {
+      "id": "provider-8",
+      "name": "Primary Care Physician",
+      "credentials": "MD",
+      "type": "physician",
+      "specialty": "Internal Medicine",
+      "photo": "",
+      "bio": "Providing annual wellness exams and coordinated primary care for seniors.",
+      "specialties": ["Internal Medicine", "Preventive Care"],
+      "locations": ["Forest Hills", "Great Neck"],
+      "languages": ["English"]
+    }
+  ]
+}
