@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 110" width="300" height="110">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 110" width="340" height="110">
   <!-- M&S Text -->
   <text x="10" y="62" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="68" fill="#1B2A4A" letter-spacing="-1">M&amp;S</text>
   <!-- Plus/Cross -->
   <g transform="translate(185, 10)">
-    <rect x="14" y="0" width="14" height="42" rx="2" fill="#C4A35A"/>
-    <rect x="0" y="14" width="42" height="14" rx="2" fill="#C4A35A"/>
+    <rect x="14" y="0" width="14" height="42" rx="2" fill="#8B7332"/>
+    <rect x="0" y="14" width="42" height="14" rx="2" fill="#8B7332"/>
   </g>
   <!-- Dr. Names -->
-  <text x="10" y="92" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="16" fill="#C4A35A" letter-spacing="1.5">Dr. Manouel &amp; Dr. Salem</text>
+  <text x="10" y="95" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#1B2A4A" letter-spacing="1">Dr. Manouel &amp; Dr. Salem</text>
 </svg>
