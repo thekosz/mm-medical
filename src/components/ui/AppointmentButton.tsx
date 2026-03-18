@@ -36,9 +36,7 @@ export default function AppointmentButton({
 
   return (
     <a
-      href={BOOKING_URL}
-      target="_blank"
-      rel="noopener noreferrer"
+      href="/schedule"
       className={`${baseStyles} ${variants[variant]} ${sizes[size]} ${className}`}
     >
       {showIcon && <Calendar size={size === 'lg' ? 22 : size === 'xs' ? 14 : size === 'sm' ? 16 : 20} />}
