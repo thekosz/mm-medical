@@ -7,7 +7,7 @@ import { siteConfig } from '@/site.config'
 
 export const metadata: Metadata = {
   title: 'Our Providers & Staff',
-  description: 'Meet our team of experienced specialists in vascular medicine, pain management, and rehabilitation serving Queens and Long Island.',
+  description: 'Meet our team of experienced specialists in vascular medicine, pain management, and rehabilitation serving Forest Hills, Queens.',
 }
 
 // Group providers by type

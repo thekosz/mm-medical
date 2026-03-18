@@ -66,7 +66,6 @@ export default function RootLayout({
               "numberOfEmployees": { "@type": "QuantitativeValue", "value": 10 },
               "areaServed": [
                 { "@type": "City", "name": "Queens" },
-                { "@type": "City", "name": "Great Neck" },
                 { "@type": "City", "name": "Forest Hills" }
               ],
               "sameAs": [],
@@ -85,8 +84,7 @@ export default function RootLayout({
                 ]
               },
               "location": [
-                { "@type": "MedicalClinic", "name": "MM Medical Services - Forest Hills", "address": { "@type": "PostalAddress", "streetAddress": "76-55 Austin Street", "addressLocality": "Forest Hills", "addressRegion": "NY", "postalCode": "11375" }, "telephone": "(718) 897-2228" },
-                { "@type": "MedicalClinic", "name": "MM Medical Services - Great Neck", "address": { "@type": "PostalAddress", "streetAddress": "935 Northern Blvd Ste 102", "addressLocality": "Great Neck", "addressRegion": "NY", "postalCode": "11021" }, "telephone": "(516) 960-1954" }
+                { "@type": "MedicalClinic", "name": "MM Medical Services - Forest Hills", "address": { "@type": "PostalAddress", "streetAddress": "76-55 Austin Street", "addressLocality": "Forest Hills", "addressRegion": "NY", "postalCode": "11375" }, "telephone": "(718) 897-2228" }
               ]
             })
           }}

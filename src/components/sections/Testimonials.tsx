@@ -2,10 +2,10 @@
 import { Star } from 'lucide-react'
 
 const testimonials = [
-  { name: 'Michael R.', location: 'Great Neck, NY', rating: 5, text: "After struggling with chronic knee pain for years, the GAE treatment I received here was life-changing. The doctors explained every step and I was back on my feet faster than I imagined." },
+  { name: 'Michael R.', location: 'Forest Hills, NY', rating: 5, text: "After struggling with chronic knee pain for years, the GAE treatment I received here was life-changing. The doctors explained every step and I was back on my feet faster than I imagined." },
   { name: 'Sarah L.', location: 'Forest Hills, NY', rating: 5, text: "The PRP treatment for my joint pain has made a remarkable difference. The staff is compassionate and truly understands the needs of older patients like myself." },
   { name: 'Robert K.', location: 'Queens, NY', rating: 5, text: "Outstanding vascular care. My treatment was well-coordinated between the specialists, and I always felt like they were working together as a team for my health." },
-  { name: 'Margaret T.', location: 'Great Neck, NY', rating: 5, text: "The physical therapy program here has dramatically improved my mobility. I can walk without pain for the first time in years. The whole team genuinely cares." },
+  { name: 'Margaret T.', location: 'Forest Hills, NY', rating: 5, text: "The physical therapy program here has dramatically improved my mobility. I can walk without pain for the first time in years. The whole team genuinely cares." },
 ]
 
 export default function Testimonials() {

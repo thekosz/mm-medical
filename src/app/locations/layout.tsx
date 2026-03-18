@@ -3,7 +3,7 @@ import { siteConfig } from '@/site.config'
 
 export const metadata: Metadata = {
   title: 'Our Locations',
-  description: `Find a ${siteConfig.name} location near you. ${siteConfig.locationCount} convenient offices across NYC, Long Island, Brooklyn, Queens, and Manhattan.`,
+  description: `Visit ${siteConfig.name} in Forest Hills, Queens — convenient care close to home.`,
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

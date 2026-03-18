@@ -3,7 +3,7 @@ import { siteConfig } from '@/site.config'
 
 const stats = [
   { value: siteConfig.stats.providers.value, label: siteConfig.stats.providers.label, sub: 'Board-certified' },
-  { value: siteConfig.stats.locations.value, label: siteConfig.stats.locations.label, sub: 'Queens & Long Island' },
+  { value: siteConfig.stats.locations.value, label: siteConfig.stats.locations.label, sub: 'Forest Hills, Queens' },
   { value: siteConfig.stats.specialties.value, label: siteConfig.stats.specialties.label, sub: 'Comprehensive care' },
   { value: siteConfig.stats.years.value, label: siteConfig.stats.years.label, sub: 'Serving our community' },
 ]

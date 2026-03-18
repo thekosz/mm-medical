@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${service.name} | ${siteConfig.name} — ${siteConfig.regionDisplay}`,
-    description: `${service.shortDesc}. Expert ${service.name.toLowerCase()} from board-certified OB/GYN providers across 10 locations in NYC and Long Island. Schedule your appointment today.`,
+    description: `${service.shortDesc}. Expert ${service.name.toLowerCase()} from experienced specialists in Forest Hills, Queens. Schedule your appointment today.`,
     keywords: service.keywords.join(', '),
     openGraph: {
       title: `${service.name} | ${siteConfig.name}`,

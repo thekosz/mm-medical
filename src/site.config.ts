@@ -28,9 +28,9 @@ export const siteConfig = {
   patientPortalUrl: '', // TODO: add if available
 
   // ── Location Summary ───────────────────────────────────────────
-  locationCount: 2,
-  regions: ['Queens', 'Long Island'],
-  regionDisplay: 'Queens & Long Island',
+  locationCount: 1,
+  regions: ['Queens'],
+  regionDisplay: 'Queens, NY',
 
   // ── Provider Summary ───────────────────────────────────────────
   providerSubtitle: 'Our experienced physicians and specialists delivering advanced, coordinated care.',
@@ -57,8 +57,8 @@ export const siteConfig = {
   seo: {
     titleTemplate: '%s | MM Medical Services — Queens & Long Island',
     defaultTitle: 'MM Medical Services — Advanced Vascular & Pain Management | Queens & Long Island',
-    defaultDescription: 'Senior-focused medical care specializing in GAE, interventional radiology, vascular services, and pain management. Locations in Forest Hills and Great Neck.',
-    keywords: ['vascular medicine', 'interventional radiology', 'GAE', 'knee pain', 'pain management', 'Queens', 'Great Neck', 'senior care'],
+    defaultDescription: 'Senior-focused medical care specializing in GAE, interventional radiology, vascular services, and pain management in Forest Hills, Queens.',
+    keywords: ['vascular medicine', 'interventional radiology', 'GAE', 'knee pain', 'pain management', 'Queens', 'Forest Hills', 'senior care'],
   },
 
   // ── Social Media ───────────────────────────────────────────────
