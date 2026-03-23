@@ -5,7 +5,7 @@ import { siteConfig } from '@/site.config'
 
 export const metadata: Metadata = {
   title: 'Blog',
-  description: `Health tips, pregnancy guides, and women's wellness articles from the experts at ${siteConfig.name}.`,
+  description: `Health tips, vascular and orthopedic wellness articles from the experts at ${siteConfig.name}.`,
 }
 
 export default function BlogPage() {
@@ -27,7 +27,7 @@ export default function BlogPage() {
           </div>
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Coming Soon</h2>
           <p className="text-gray-600 text-lg mb-8">
-            We&apos;re working on bringing you helpful articles about women&apos;s health, wellness tips, and the latest updates from {siteConfig.name}. Stay tuned!
+            We&apos;re working on bringing you helpful articles about vascular health, orthopedic wellness, and the latest updates from {siteConfig.name}. Stay tuned!
           </p>
           <Link
             href="/"

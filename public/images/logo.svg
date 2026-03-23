@@ -1,11 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 110" width="340" height="110">
-  <!-- M&S Text -->
-  <text x="10" y="62" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="68" fill="#1B2A4A" letter-spacing="-1">M&amp;S</text>
-  <!-- Plus/Cross -->
-  <g transform="translate(185, 10)">
-    <rect x="14" y="0" width="14" height="42" rx="2" fill="#8B7332"/>
-    <rect x="0" y="14" width="42" height="14" rx="2" fill="#8B7332"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 90" width="400" height="90">
+  <defs>
+    <linearGradient id="swoosh1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C4A35A"/>
+      <stop offset="100%" stop-color="#8B7332"/>
+    </linearGradient>
+    <linearGradient id="swoosh2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1B2A4A"/>
+      <stop offset="100%" stop-color="#2A4070"/>
+    </linearGradient>
+    <linearGradient id="swoosh3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B2020"/>
+      <stop offset="100%" stop-color="#C03030"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Knee Joint Icon -->
+  <g transform="translate(5, 5)">
+    <!-- Upper bone (femur) - stylized -->
+    <path d="M30 8 C35 8, 48 20, 45 32 C43 38, 38 42, 32 44 C26 46, 20 42, 18 36 C14 26, 22 8, 30 8Z" fill="url(#swoosh2)" opacity="0.9"/>
+    <!-- Lower bone (tibia) - stylized -->
+    <path d="M28 46 C34 44, 42 48, 44 56 C46 64, 40 74, 32 76 C24 78, 16 70, 16 62 C16 54, 22 48, 28 46Z" fill="url(#swoosh2)" opacity="0.75"/>
+    <!-- Joint space highlight -->
+    <ellipse cx="32" cy="44" rx="12" ry="5" fill="#F0EAD6" opacity="0.6"/>
+    <!-- Gold swoosh flowing from knee -->
+    <path d="M44 35 Q55 30, 70 28 Q80 27, 90 30" stroke="url(#swoosh1)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Red accent swoosh -->
+    <path d="M44 42 Q58 38, 72 36 Q82 35, 90 38" stroke="url(#swoosh3)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Blue flowing line -->
+    <path d="M44 50 Q56 48, 68 46 Q78 44, 90 46" stroke="url(#swoosh2)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
   </g>
-  <!-- Dr. Names -->
-  <text x="10" y="95" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#1B2A4A" letter-spacing="1">Dr. Manouel &amp; Dr. Salem</text>
+
+  <!-- Practice Name -->
+  <text x="105" y="38" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="26" fill="#1B2A4A" letter-spacing="0.5">M&amp;S</text>
+  <text x="160" y="38" font-family="Georgia, 'Times New Roman', serif" font-weight="400" font-size="20" fill="#1B2A4A">Vascular &amp; Orthopedic</text>
+
+  <!-- Subtitle -->
+  <text x="105" y="60" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#8B7332" letter-spacing="2">GROUP P.C.</text>
+
+  <!-- Gold accent line -->
+  <line x1="105" y1="68" x2="380" y2="68" stroke="#C4A35A" stroke-width="1" opacity="0.5"/>
+
+  <!-- Tagline -->
+  <text x="105" y="82" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="10" fill="#666" letter-spacing="1">QUEENS &amp; LONG ISLAND</text>
 </svg>

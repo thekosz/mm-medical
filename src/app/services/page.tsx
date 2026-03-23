@@ -14,7 +14,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
           <p className="text-xl opacity-90 max-w-2xl mx-auto">
-            Comprehensive women&apos;s healthcare services from expert providers across the NYC metro area.
+            Advanced vascular, orthopedic, and interventional radiology services across Queens and Long Island.
           </p>
         </div>
       </section>

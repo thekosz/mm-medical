@@ -3,7 +3,7 @@ import { siteConfig } from '@/site.config'
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: `Learn about ${siteConfig.name} — over 35 years of comprehensive women's healthcare with 44 board-certified providers across ${siteConfig.regionDisplay}.`,
+  description: `Learn about ${siteConfig.name} — advanced vascular, orthopedic, and interventional radiology care across ${siteConfig.regionDisplay}.`,
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

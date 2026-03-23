@@ -8,38 +8,38 @@
 
 export const siteConfig = {
   // ── Practice Identity ──────────────────────────────────────────
-  name: 'MM Medical Services',
-  shortName: 'MM Medical',
+  name: 'M&S Vascular and Orthopedic Group P.C.',
+  shortName: 'M&S Vascular',
   tagline: 'Your health. Your mobility. Your quality of life — our priority.',
-  specialty: 'Vascular & Interventional Medicine',
-  description: 'Advanced, coordinated care for seniors — featuring GAE, interventional radiology, pain management, and vascular services across Queens and Long Island.',
-  logo: '/images/logo.svg',
-  url: 'https://www.mmmedicalservices.com',
+  specialty: 'Vascular Surgery, Orthopedic Surgery & Interventional Radiology',
+  description: 'Advanced vascular, orthopedic, and interventional radiology care — featuring GAE, sports medicine, pain management, and minimally invasive procedures across Queens and Long Island.',
+  logo: '/images/logo.png',
+  url: 'https://www.msorthovasc.com',
 
   // ── Contact ────────────────────────────────────────────────────
   phone: '(718) 897-2228',
   phoneTel: '+17188972228',
   fax: '',
-  email: '',
+  email: 'info@mandsvo.com',
 
   // ── External Links ─────────────────────────────────────────────
-  bookingUrl: 'https://www.mmmedicalservices.com', // TODO: replace with actual booking link
-  messagingUrl: 'https://www.mmmedicalservices.com', // TODO: replace with actual messaging link
+  bookingUrl: 'https://www.msorthovasc.com', // TODO: replace with actual booking link
+  messagingUrl: 'https://www.msorthovasc.com', // TODO: replace with actual messaging link
   patientPortalUrl: '', // TODO: add if available
 
   // ── Location Summary ───────────────────────────────────────────
-  locationCount: 1,
-  regions: ['Queens'],
-  regionDisplay: 'Queens, NY',
+  locationCount: 2,
+  regions: ['Queens', 'Long Island'],
+  regionDisplay: 'Queens & Long Island, NY',
 
   // ── Provider Summary ───────────────────────────────────────────
   providerSubtitle: 'Our experienced physicians and specialists delivering advanced, coordinated care.',
 
   // ── Stats (homepage) ───────────────────────────────────────────
   stats: {
-    providers: { value: '10+', label: 'Experienced Specialists' },
+    providers: { value: '2', label: 'Expert Physicians' },
     locations: { value: '2', label: 'Convenient Locations' },
-    specialties: { value: '8+', label: 'Specialty Services' },
+    specialties: { value: '5+', label: 'Specialty Services' },
     years: { value: '20+', label: 'Years of Excellence' },
   },
 
@@ -55,10 +55,10 @@ export const siteConfig = {
 
   // ── SEO ────────────────────────────────────────────────────────
   seo: {
-    titleTemplate: '%s | MM Medical Services — Queens & Long Island',
-    defaultTitle: 'MM Medical Services — Advanced Vascular & Pain Management | Queens & Long Island',
-    defaultDescription: 'Senior-focused medical care specializing in GAE, interventional radiology, vascular services, and pain management in Forest Hills, Queens.',
-    keywords: ['vascular medicine', 'interventional radiology', 'GAE', 'knee pain', 'pain management', 'Queens', 'Forest Hills', 'senior care'],
+    titleTemplate: '%s | M&S Vascular and Orthopedic Group — Queens & Long Island',
+    defaultTitle: 'M&S Vascular and Orthopedic Group P.C. — Queens & Long Island',
+    defaultDescription: 'Advanced vascular surgery, orthopedic surgery, and interventional radiology in Forest Hills, Queens and Great Neck, Long Island.',
+    keywords: ['vascular surgery', 'orthopedic surgery', 'interventional radiology', 'GAE', 'sports medicine', 'Queens', 'Forest Hills', 'Great Neck', 'Long Island'],
   },
 
   // ── Social Media ───────────────────────────────────────────────

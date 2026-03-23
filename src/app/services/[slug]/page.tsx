@@ -47,15 +47,12 @@ function ServiceSchema({ service }: { service: NonNullable<ReturnType<typeof get
         name: siteConfig.name,
         telephone: siteConfig.phoneTel,
         url: siteConfig.url,
-        medicalSpecialty: ['Obstetrics', 'Gynecology'],
+        medicalSpecialty: ['Vascular Surgery', 'Orthopedic Surgery', 'Interventional Radiology'],
         areaServed: [
-          { '@type': 'City', name: 'Garden City' },
-          { '@type': 'City', name: 'Massapequa' },
-          { '@type': 'City', name: 'Commack' },
-          { '@type': 'City', name: 'Brooklyn' },
           { '@type': 'City', name: 'Forest Hills' },
-          { '@type': 'City', name: 'Lake Success' },
-          { '@type': 'City', name: 'New York' },
+          { '@type': 'City', name: 'Great Neck' },
+          { '@type': 'City', name: 'Queens' },
+          { '@type': 'City', name: 'Long Island' },
         ],
       },
     },
@@ -187,7 +184,7 @@ export default async function ServicePage({ params }: Props) {
 
                   <div className="mt-6 pt-4 border-t border-gray-200">
                     <h4 className="text-sm font-semibold text-gray-900 mb-2">Available at our locations:</h4>
-                    <p className="text-xs text-gray-500">Garden City · Brooklyn · Commack · Queens · Lake Success · Massapequa · Manhattan · Cedarhurst</p>
+                    <p className="text-xs text-gray-500">Forest Hills, Queens · Great Neck, Long Island</p>
                   </div>
                 </div>
 

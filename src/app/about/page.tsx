@@ -12,7 +12,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About {siteConfig.name}</h1>
           <p className="text-xl opacity-90 max-w-2xl mx-auto">
-            Providing compassionate, comprehensive women&apos;s healthcare for over 25 years.
+            Advanced vascular, orthopedic, and interventional radiology care for over 20 years.
           </p>
         </div>
       </section>
@@ -24,28 +24,24 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                {siteConfig.name} was founded with a simple mission: to provide exceptional women&apos;s healthcare
-                in a warm, supportive environment. What began as a single practice has grown into one of the
-                largest OB/GYN groups in the New York metropolitan area.
+                {siteConfig.name} was founded with a commitment to providing advanced, minimally invasive
+                surgical care in a patient-centered environment. Our physicians bring decades of combined
+                experience in vascular surgery, orthopedic surgery, and interventional radiology.
               </p>
               <p className="text-gray-600 mb-4">
-                Today, our team of 44 board-certified physicians, nurse practitioners, and certified nurse
-                midwives serves patients across 10 convenient locations. We&apos;re proud to offer comprehensive
-                care from adolescence through menopause and beyond.
+                Led by Dr. Mehran Manoel and Dr. Amir Salem, our practice offers comprehensive care
+                across two convenient locations in Forest Hills, Queens and Great Neck, Long Island.
               </p>
               <p className="text-gray-600">
-                Our commitment to excellence is reflected in our outcomes: a 3.1% preterm birth rate
-                compared to the national average of 11.4%, demonstrating our dedication to the health
-                of both mothers and babies.
+                We specialize in cutting-edge treatments including GAE for knee pain, shoulder embolization,
+                sports medicine, and advanced vascular procedures — helping our patients return to active,
+                pain-free living.
               </p>
             </div>
-            <div className="relative h-80 rounded-2xl overflow-hidden">
-              <Image
-                src="/images/hero/garden_hero_wellness_00001_.png"
-                alt={`${siteConfig.name} Care`}
-                fill
-                className="object-cover"
-              />
+            <div className="relative h-80 rounded-2xl overflow-hidden bg-[var(--accent)]">
+              <div className="flex items-center justify-center h-full text-[var(--primary)]">
+                <Award size={80} strokeWidth={1} />
+              </div>
             </div>
           </div>
         </div>
@@ -68,21 +64,21 @@ export default function AboutPage() {
                 <Award size={28} className="text-[var(--primary)]" />
               </div>
               <h3 className="font-bold text-gray-900 mb-2">Excellence</h3>
-              <p className="text-gray-600 text-sm">We strive for the highest standards in medical care.</p>
+              <p className="text-gray-600 text-sm">We strive for the highest standards in surgical and medical care.</p>
             </div>
             <div className="bg-white rounded-2xl p-6 text-center">
               <div className="w-14 h-14 mx-auto mb-4 bg-[var(--accent)] rounded-full flex items-center justify-center">
                 <Users size={28} className="text-[var(--primary)]" />
               </div>
               <h3 className="font-bold text-gray-900 mb-2">Collaboration</h3>
-              <p className="text-gray-600 text-sm">We work together as a team to provide seamless care.</p>
+              <p className="text-gray-600 text-sm">Our specialists work together to provide coordinated, seamless care.</p>
             </div>
             <div className="bg-white rounded-2xl p-6 text-center">
               <div className="w-14 h-14 mx-auto mb-4 bg-[var(--accent)] rounded-full flex items-center justify-center">
                 <MapPin size={28} className="text-[var(--primary)]" />
               </div>
               <h3 className="font-bold text-gray-900 mb-2">Accessibility</h3>
-              <p className="text-gray-600 text-sm">We make quality healthcare convenient and accessible.</p>
+              <p className="text-gray-600 text-sm">Two convenient locations serving Queens and Long Island.</p>
             </div>
           </div>
         </div>
@@ -93,20 +89,20 @@ export default function AboutPage() {
         <div className="max-w-5xl mx-auto px-4">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-5xl font-bold text-[var(--primary)] mb-2">44</div>
-              <p className="text-gray-600">Board-Certified Providers</p>
+              <div className="text-5xl font-bold text-[var(--primary)] mb-2">2</div>
+              <p className="text-gray-600">Expert Physicians</p>
             </div>
             <div>
-              <div className="text-5xl font-bold text-[var(--primary)] mb-2">10</div>
+              <div className="text-5xl font-bold text-[var(--primary)] mb-2">2</div>
               <p className="text-gray-600">Convenient Locations</p>
             </div>
             <div>
-              <div className="text-5xl font-bold text-[var(--primary)] mb-2">25+</div>
+              <div className="text-5xl font-bold text-[var(--primary)] mb-2">20+</div>
               <p className="text-gray-600">Years of Excellence</p>
             </div>
             <div>
-              <div className="text-5xl font-bold text-[var(--primary)] mb-2">3.1%</div>
-              <p className="text-gray-600">Preterm Birth Rate</p>
+              <div className="text-5xl font-bold text-[var(--primary)] mb-2">98%</div>
+              <p className="text-gray-600">Patient Satisfaction</p>
             </div>
           </div>
         </div>
@@ -115,8 +111,8 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="py-16 bg-[var(--accent)]">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Join Our Garden Family</h2>
-          <p className="text-gray-700 mb-8">Experience the compassionate, comprehensive care that has made us one of the most trusted OB/GYN practices in New York.</p>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">Schedule Your Visit</h2>
+          <p className="text-gray-700 mb-8">Experience the advanced, personalized care that has made us a trusted name in vascular and orthopedic medicine.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <AppointmentButton variant="primary" size="lg" />
             <a
